@@ -1,0 +1,143 @@
+body{
+	background-image: linear-gradient(to bottom right, #111d5e,#c70039);
+}
+html{
+	scroll-behavior: smooth;
+}
+div{
+	margin: 0.01px;
+	font-family: "Helvetica", Courier;
+	background-image: linear-gradient(to right, #111d5e,#c70039);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+div a{
+	float: left;
+	display: block;
+	color: #fddb3a;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+}
+div a:hover{
+	background-color: #fddb3a;
+	color: blue;
+}
+video{
+	
+	border-color: #c70039;
+	border: solid;
+	border-width: 10px;
+	width: 100%;
+	height: auto%;
+}		
+main{
+	margin-top: 30px;
+}
+h1{
+	color: #fddb3a;
+	font-size: 40px;
+}
+h2{
+	color: white;
+}
+h3{
+	color: white;
+}
+hr{
+	border: none;
+    height: 20px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*class*/
+.stats{
+	border-left: 5px solid red;
+	color: #fddb3a;
+	font-size: 50px;
+	background-image: linear-gradient(to right, #111d5e,#c70039)
+}
+.stat{
+	font-size: 25px;
+}
+.stat2{
+	font-family: "Helvetica";
+	font-size: 15px;
+}
+.info{
+	font-family: "Helvetica";
+	font-size: 15px;
+	text-align: justify;
+}
+.table2{
+	text-align: left;
+	color: white;
+}
+.statstab:hover{
+	background-color: #dddddd;
+	color: black;
+}
+.table2{
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: #111d5e;
+	background-color: #f37121;
+}
+.up{
+	position: fixed;
+	right: 20px;
+	bottom: 0;
+}
+.next{
+	position: fixed;
+	left: 120px;
+	bottom: 0;
+}
+.next:hover{
+	transition: transform .3s;
+	transform: scale(1.3);
+}
+.prev{
+	position: fixed;
+	left: 10px;
+	bottom: 0;
+}
+.prev:hover{
+	transition: transform .3s;
+	transform: scale(1.3);
+}
+.heading{
+	width: 100%;
+	height: 30vh;
+	overflow: hidden;
+}
+.heading .mesque{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.footer-centered{
+	background-image: linear-gradient(to right, #111d5e,#c70039);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font-family: "Helvetica", Courier;
+	padding: 45px;
+	margin-top: 80px;
+}
+.footer-centered .warning{
+	color: #fddb3a;
+	font-size: 24px;
+	margin: 0;
+	text-align: center;
+}
+.footer-centered .myname{
+	color: #fddb3a;
+	font-size: 14px;
+	margin: 0;
+	text-align: center;
+}
+

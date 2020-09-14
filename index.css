@@ -1,0 +1,206 @@
+
+/*selector*/
+body{
+	background-image: linear-gradient(to bottom right, #111d5e,#c70039);
+}
+html{
+	scroll-behavior: smooth;
+}
+
+p{
+	font-family: "Helvetica", Courier;
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+}
+
+audio{
+
+	align-content: center;
+}
+hr{
+	border: none;
+    height: 20px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 5), rgba(0, 0, 0, 0));
+}
+
+
+
+/*class*/
+.heading1{
+	border-left: 5px solid red;
+	color: #fddb3a;
+	font-size: 50px;
+	background-image: linear-gradient(to right, #111d5e,#c70039)
+}
+.lyrics{
+	text-align: center;
+	color: #ffbd69;
+	font-size: 
+}
+.lyrics2{
+	text-align: center;
+}
+.seemore:link{
+	color: red;
+}	
+.p{
+	text-align: right;
+	font-family: verdana;
+	font-size: 11px;
+	color: #c70039;
+}
+.topnav{
+	margin: 0.01px;
+	font-family: "Helvetica", Courier;
+	background-image: linear-gradient(to right, #111d5e,#c70039);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.topnav a{
+	float: left;
+	display: block;
+	color: #fddb3a;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+}
+.topnav a:hover{
+	background-color: #fddb3a;
+	color: blue;
+}
+.plyrics{
+	text-align: center;
+
+}
+.barcalyrics{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+.up{
+	position: fixed;
+	right: 20px;
+	bottom: 0;
+}
+#{
+	margin: 0;
+	padding: 0;
+}
+.indexvid{
+	width: 100%;
+	height: 70vh;
+	overflow: hidden;
+}
+.indexvid .introvid{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.images:hover{
+	transition: transform .3s;
+	transform: scale(1.3);
+}
+.fcbheader{
+	width: 100%;
+	height: 30vh;
+	overflow: hidden;
+}
+.fcbheader .mesque{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.joan:hover{
+	transform: scaleX(-1);
+}
+.footer-centered{
+	background-image: linear-gradient(to right, #111d5e,#c70039);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font-family: "Helvetica", Courier;
+	padding: 45px;
+	margin-top: 80px;
+}
+.footer-centered .warning{
+	color: #fddb3a;
+	font-size: 24px;
+	margin: 0;
+	text-align: center;
+}
+.footer-centered .myname{
+	color: #fddb3a;
+	font-size: 14px;
+	margin: 0;
+	text-align: center;
+}
+*{
+	box-sizing: border-box;
+}
+.fstrow{
+	font-family: "Helvetica", Courier;
+	padding: 5px;
+}
+.text{
+	position: absolute;
+	bottom: -160px;
+  	left: 40px;
+  	background-image: linear-gradient(to right, #111d5e,#c70039);
+  	color: #fddb3a;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}
+.newmangr{
+	float: right;
+	padding: 5px;
+}
+.text2{
+	position: absolute;
+	bottom: -160px;
+  	right: 300px;
+  	background-image: linear-gradient(to right, #111d5e,#c70039);
+  	color: #fddb3a;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}
+.pc{
+	position: absolute;
+	bottom: -660px;
+  	left: 40px;
+  	background-image: linear-gradient(to right, #111d5e,#c70039);
+  	color: #fddb3a;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}
+.lm{
+	position: absolute;
+	bottom: -660px;
+  	right: 260px;
+  	background-image: linear-gradient(to right, #111d5e,#c70039);
+  	color: #fddb3a;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}
+.nike_logo{
+	float: left;
+	width: 33.33%;
+	padding: 3px;
+}
+.beko{
+	float: right;
+	width: 33.33%;
+	padding: 3px;
+}
+.rakuten{
+	float: right;
+	width: 33.33%;
+	padding: 3px;
+}
+.sponsors::after{
+	content: "";
+	clear: both;
+	display: table;
+}
